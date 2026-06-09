@@ -50,12 +50,12 @@ document.addEventListener('DOMContentLoaded', function () {
    */
   function initiatePayment(amount, name, email, note) {
     const options = {
-      key: 'rzp_test_XXXXXXXXX', // TODO: Replace with your actual Razorpay API key
+      key: 'rzp_live_SzZbeftXq72aJv',
       amount: Math.round(amount * 100), // Razorpay uses paise
       currency: 'INR',
       name: 'Irfan Habeeb K',
       description: note,
-      image: 'https://i.postimg.cc/MGmqptq3/Whats-App-Image-2026-06-09-at-11-01-25-AM.jpg',
+      image: 'https://imagetourl.cloud/ff85c2sd.png',
       prefill: {
         name: name,
         email: email
