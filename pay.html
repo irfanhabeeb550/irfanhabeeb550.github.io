@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay Irfan Habeeb K | Secure Payment</title>
+  <meta name="description" content="Make a quick, secure payment to Irfan Habeeb K via Razorpay — UPI, Cards, Net Banking, Wallets accepted.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">Irfan.</a>
+    <a href="index.html" class="btn-secondary">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      Back to Home
+    </a>
+  </nav>
+
+  <!-- ===== PAY PAGE ===== -->
+  <main class="pay-page">
+    <div class="glass-card pay-page-card">
+
+      <h1>Pay Irfan Habeeb K</h1>
+      <p class="pay-subtitle">Quick, secure payments via Razorpay</p>
+
+      <img src="https://i.postimg.cc/MGmqptq3/Whats-App-Image-2026-06-09-at-11-01-25-AM.jpg" alt="Irfan Habeeb K" class="pay-photo">
+
+      <div class="form-group">
+        <label for="pay-page-amount">Amount (₹)</label>
+        <div class="amount-input-wrapper">
+          <span class="currency-symbol">₹</span>
+          <input type="number" id="pay-page-amount" min="1" placeholder="0.00">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pay-page-name">Your Name</label>
+        <input type="text" id="pay-page-name" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="pay-page-email">Your Email</label>
+        <input type="email" id="pay-page-email" placeholder="your@email.com">
+      </div>
+
+      <div class="form-group">
+        <label for="pay-page-note">Purpose / Note</label>
+        <textarea id="pay-page-note" placeholder="e.g. Freelance project, consultation..." rows="3"></textarea>
+      </div>
+
+      <button id="pay-page-btn" class="btn-primary btn-gradient" style="width: 100%; font-size: 1.1rem; padding: 1rem;">💳 Pay Now</button>
+
+      <div class="pay-security">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>Secured by Razorpay</span>
+      </div>
+
+      <p class="pay-methods">UPI · Cards · Net Banking · Wallets</p>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 Irfan Habeeb K. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="js/pay.js"></script>
+
+</body>
+</html>
